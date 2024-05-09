@@ -1,0 +1,13 @@
+alreaady exist
+git remote add origin https://github.com/ILNEKELASHENGINEER/oss-sem.git
+git branch -M main
+git push -u origin main
+
+New local
+echo "# oss-sem" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ILNEKELASHENGINEER/oss-sem.git
+git push -u origin main
